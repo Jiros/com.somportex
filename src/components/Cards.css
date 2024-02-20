@@ -1,0 +1,53 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the space between cards */
+  padding:10px;
+  margin-top: 20px;
+}
+
+.card {
+  flex-basis: calc(33.333% - 40px); /* Adjust based on gap and container padding */
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits text color */
+  /* border: 1px solid #fff; Optional: adds border */
+  border-radius: 15px; /* Optional: adds rounded corners */
+  overflow: hidden; /* Ensures the content fits within the borders */
+  transition: transform 0.3s ease; /* Optional: adds animation */
+  position: relative; /* Needed for absolute positioning of title */
+  display: block; /* Make the link block-level */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Optional: scales card on hover */
+}
+
+.card-image {
+  width: 100%; /* Makes the image responsive */
+  height: 350px; /* Adjust based on your design */
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(20,27,41,0.5);/* Semi-transparent overlay */
+  padding: 15px;
+  font-size: 2em; /* Adjust based on your design */
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    flex-basis: 100%; /* Stacks cards vertically on smaller screens */
+    margin-top:20px;
+  }
+
+  .card-image {
+    height:250px;
+  }
+}

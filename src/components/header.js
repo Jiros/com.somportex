@@ -14,8 +14,8 @@ const Header = () => (
     </div>
     <nav>
       <ul className="headerNav">
-        <li><Link to="/page-1">About</Link></li>
-        <li><Link to="/page-2">Contact</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   </header>
