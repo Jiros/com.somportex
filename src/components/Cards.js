@@ -16,7 +16,7 @@ const Cards = () => (
         <div className="card-title windsong">Bucket Lists</div>
       </div>
     </a>
-    <a href="/page-3/" className="card">
+    <a href="/365-days/" className="card">
       <div className="card-image">
         <StaticImage src="../images/pool.png" alt="Card 3" />
         <div className="card-title windsong">A year of travel</div>
