@@ -32,7 +32,7 @@ const BucketList = () => (
       </div>
     </div>
     <div className="card">
-      <div className="card-number windsong">4</div>
+      <div className="card-number windsong">5</div>
       <div className="card-text">
         <h2 class="windsong">Luxury Dubai</h2>
         <p class="fell">Nestled in the shadow of the world’s tallest ferris wheel, Caesars Palace Bluewaters Dubai epitomizes luxury. From oversized swimming pools to palatial rooms, this hotel offers respite from the furnace-like heat. Plus, its prime seafront location ensures a memorable stay</p>
