@@ -6,11 +6,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import Timeline from "../components/Timeline"
+import ContactForm from "../components/ContactForm"
 
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <Timeline />
+      <ContactForm />
     </div>
 
   </Layout>

@@ -1,0 +1,47 @@
+.card-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    display: flex;
+    background-color: #141b29;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .card-number {
+    flex: 1;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d7a760; /* Accent color for the number section */
+    color: #141b29;
+  }
+  
+  .card-text {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .card-text h2 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+    }
+  
+    .card-number {
+      font-size: 36px; /* Adjust size for smaller screens */
+    }
+  }
+  

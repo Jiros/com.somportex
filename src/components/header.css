@@ -31,6 +31,10 @@
   .headerNav li {
     margin-left: 2rem;
   }
+
+  .headerNav a:hover {
+    color: #d7a760;
+  }
   
   .headerNav a {
     /* color: #fae5b4; */

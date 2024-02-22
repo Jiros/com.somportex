@@ -5,28 +5,13 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
-import HeroSection from "../components/HeroSection"
-import Cards from '../components/Cards'; // Adjust the path as needed
-import ContactForm from "../components/ContactForm"
-
+import InspirationalQuotes from "../components/InspirationalQuotes"
 
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-    <HeroSection />
-    <StaticImage
-        src="../images/somportex-logo-text.png"
-        loading="eager"
-        width={250}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ margin: `var(--space-6)`}}
-      />
+      <InspirationalQuotes />
     </div>
-    <Cards />  
-    <ContactForm />
-
 
   </Layout>
 )

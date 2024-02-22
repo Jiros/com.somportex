@@ -4,13 +4,13 @@ import './Cards.css'; // Importing CSS styles
 
 const Cards = () => (
   <div className="card-container">
-    <a href="/page-1/" className="card">
+    <a href="/quotes/" className="card">
       <div className="card-image">
         <StaticImage src="../images/vietnam-field.png" alt="Card 1" />
         <div className="card-title windsong">Inspiration</div>
       </div>
     </a>
-    <a href="/page-2/" className="card">
+    <a href="/bucket-list/" className="card">
       <div className="card-image">
         <StaticImage src="../images/new-york.png" alt="Card 2" />
         <div className="card-title windsong">Bucket Lists</div>

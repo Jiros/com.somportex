@@ -225,3 +225,16 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+
+.centre-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.small{
+  font-size: small;
+}
