@@ -6,11 +6,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import InspirationalQuotes from "../components/InspirationalQuotes"
+import ContactForm from "../components/ContactForm"
 
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <InspirationalQuotes />
+      <ContactForm />
     </div>
 
   </Layout>
