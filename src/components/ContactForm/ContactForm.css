@@ -3,3 +3,12 @@
     margin-left: 5rem;
     margin-right: 5rem;
 }
+
+@media screen and (max-width:768px) {
+    .form {
+         font-size: small;
+         margin-top: 30px;
+         margin-left: 0rem;
+         margin-right: 0rem;
+      }
+}
