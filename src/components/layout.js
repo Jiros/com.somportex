@@ -39,11 +39,19 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
+            textAlign: 'center',
+            color: 'white'
           }}
         >
           © {new Date().getFullYear()} &middot; Somportex Travel
-          {` `}
-          {/* <a href="https://www.gatsbyjs.com">Somportex Travel</a> */}
+          {` ` }&middot; {` ` }
+          <a style={{
+            color: 'white'
+          }}href="/privacy">Privacy Policy</a>
+          {` ` }&middot; {` ` }
+          <a style={{
+            color: 'white'
+          }}href="mailto:info@somportextravel.com">info@somportextravel.com</a>
         </footer>
       </div>
     </>

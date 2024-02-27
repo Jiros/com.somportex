@@ -8,7 +8,7 @@ const Timeline = () => (
     <div className="timeline-item normal">
       <div className="timeline-content">
         <h2 class="windsong">January</h2>
-        <p class="fell">Georgia Islands: Witness juvenile king penguins in their natural habitat.</p>
+        <p >Georgia Islands: Witness juvenile king penguins in their natural habitat.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -19,7 +19,7 @@ const Timeline = () => (
     <div className="timeline-item reverse">
       <div className="timeline-content">
         <h2 class="windsong">February</h2>
-        <p class="fell">Venice, Italy: Experience the romantic charm of this iconic city.</p>
+        <p >Venice, Italy: Experience the romantic charm of this iconic city.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -30,7 +30,7 @@ const Timeline = () => (
     <div className="timeline-item normal">
       <div className="timeline-content">
         <h2 class="windsong">March</h2>
-        <p class="fell">Himeji, Japan: Explore the stunning Himeji Castle and its beautiful gardens.</p>
+        <p >Himeji, Japan: Explore the stunning Himeji Castle and its beautiful gardens.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -41,7 +41,7 @@ const Timeline = () => (
     <div className="timeline-item reverse">
       <div className="timeline-content">
         <h2 class="windsong">April</h2>
-        <p class="fell">Cape Town, South Africa: Enjoy the scenic beauty, vibrant culture, and delicious cuisine.</p>
+        <p >Cape Town, South Africa: Enjoy the scenic beauty, vibrant culture, and delicious cuisine.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -52,7 +52,7 @@ const Timeline = () => (
         <div className="timeline-item normal">
       <div className="timeline-content">
         <h2 class="windsong">May</h2>
-        <p class="fell">Cudillero, Spain: Discover the idyllic seaside town with colourful houses.</p>
+        <p >Cudillero, Spain: Discover the idyllic seaside town with colourful houses.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -63,7 +63,7 @@ const Timeline = () => (
     <div className="timeline-item reverse">
       <div className="timeline-content">
         <h2 class="windsong">June</h2>
-        <p class="fell">Lofoten, Norway: Immerse yourself in the breathtaking landscapes and midnight sun.</p>
+        <p >Lofoten, Norway: Immerse yourself in the breathtaking landscapes and midnight sun.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -74,7 +74,7 @@ const Timeline = () => (
     <div className="timeline-item normal">
       <div className="timeline-content">
         <h2 class="windsong">July</h2>
-        <p class="fell">Carvoeiro, Portugal: Relax on picturesque beaches and explore hidden caves.</p>
+        <p >Carvoeiro, Portugal: Relax on picturesque beaches and explore hidden caves.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -85,7 +85,7 @@ const Timeline = () => (
     <div className="timeline-item reverse">
       <div className="timeline-content">
         <h2 class="windsong">August</h2>
-        <p class="fell">Tanzania: Witness the wildebeest river crossing during the Great Migration..</p>
+        <p >Tanzania: Witness the wildebeest river crossing during the Great Migration..</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -96,7 +96,7 @@ const Timeline = () => (
         <div className="timeline-item normal">
       <div className="timeline-content">
         <h2 class="windsong">September</h2>
-        <p class="fell">Galápagos Islands, Ecuador: Experience the unique environment and wildlife of the Enchanted Isles.  </p>
+        <p >Galápagos Islands, Ecuador: Experience the unique environment and wildlife of the Enchanted Isles.  </p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -107,7 +107,7 @@ const Timeline = () => (
     <div className="timeline-item reverse">
       <div className="timeline-content">
         <h2 class="windsong">October</h2>
-        <p class="fell">Ningaloo Reef, Australia: Surround yourself with colour and exotic sealife.</p>
+        <p >Ningaloo Reef, Australia: Surround yourself with colour and exotic sealife.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -118,7 +118,7 @@ const Timeline = () => (
     <div className="timeline-item normal">
       <div className="timeline-content">
         <h2 class="windsong">November</h2>
-        <p class="fell">Troll Peninsula, Iceland: Drive the breathtaking coastline under the Northern Lights.</p>
+        <p >Troll Peninsula, Iceland: Drive the breathtaking coastline under the Northern Lights.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
@@ -129,7 +129,7 @@ const Timeline = () => (
     <div className="timeline-item reverse">
       <div className="timeline-content">
         <h2 class="windsong">December</h2>
-        <p class="fell">Salzburg, Austria: Festive charm and Christmas Markets and The Sound of Music.</p>
+        <p >Salzburg, Austria: Festive charm and Christmas Markets and The Sound of Music.</p>
       </div>
       <div className="timeline-image">
         {/* Replace 'path/to/image2.png' with your actual image path */}
